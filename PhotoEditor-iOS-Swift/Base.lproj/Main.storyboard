@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,57 +17,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="144-7x-2ES">
-                                <rect key="frame" x="0.0" y="115" width="393" height="571"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HW2-Xv-QdU">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="571"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="HW2-Xv-QdU" secondAttribute="bottom" id="FXI-mo-7SO"/>
-                                    <constraint firstItem="HW2-Xv-QdU" firstAttribute="top" secondItem="144-7x-2ES" secondAttribute="top" id="IRr-eq-Wvc"/>
-                                    <constraint firstAttribute="trailing" secondItem="HW2-Xv-QdU" secondAttribute="trailing" id="O4U-83-BgU"/>
-                                    <constraint firstItem="HW2-Xv-QdU" firstAttribute="leading" secondItem="144-7x-2ES" secondAttribute="leading" id="Uzq-0v-bX1"/>
-                                </constraints>
-                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let’s Edit like a Pro" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbP-F9-tw8">
+                                <rect key="frame" x="8" y="138" width="377" height="81.333333333333314"/>
+                                <color key="tintColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="24"/>
+                                <color key="textColor" systemColor="tintColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photos Editor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLq-13-4XX">
+                                <rect key="frame" x="16" y="72" width="361" height="31"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="28"/>
+                                <color key="textColor" systemColor="systemPurpleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y56-uj-JOK">
-                                <rect key="frame" x="113" y="725" width="167" height="48"/>
+                                <rect key="frame" x="129.66666666666666" y="403.66666666666669" width="133.99999999999997" height="45"/>
+                                <color key="backgroundColor" red="0.48545585661567447" green="0.22465570402322815" blue="0.61829229797979801" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="HmL-1V-tM3"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Pick Image"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Select Photo">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="imagePickerBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fA5-mD-ZTy"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                        <color key="backgroundColor" red="0.93027327730500775" green="0.87071603658607089" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y56-uj-JOK" secondAttribute="bottom" constant="45" id="DT0-5B-wGu"/>
-                            <constraint firstItem="Y56-uj-JOK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="Zif-NT-PC7"/>
-                            <constraint firstItem="Y56-uj-JOK" firstAttribute="top" secondItem="144-7x-2ES" secondAttribute="bottom" constant="39" id="aso-Pq-COm"/>
-                            <constraint firstItem="144-7x-2ES" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="gar-fa-0AW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="144-7x-2ES" secondAttribute="bottom" constant="132" id="nTy-fr-RpZ"/>
-                            <constraint firstItem="144-7x-2ES" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qCR-UO-BQp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y56-uj-JOK" secondAttribute="trailing" constant="113" id="qbZ-rw-Wns"/>
-                            <constraint firstItem="144-7x-2ES" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yaQ-n2-q91"/>
+                            <constraint firstItem="Y56-uj-JOK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="C6o-2P-EUK"/>
+                            <constraint firstItem="MbP-F9-tw8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="Ebr-Bp-NSx"/>
+                            <constraint firstItem="MLq-13-4XX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="deL-tk-U51"/>
+                            <constraint firstItem="MLq-13-4XX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fuO-TV-alJ"/>
+                            <constraint firstAttribute="trailing" secondItem="MbP-F9-tw8" secondAttribute="trailing" constant="8" id="hlN-Lb-ak0"/>
+                            <constraint firstItem="Y56-uj-JOK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kC1-yx-r5E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MLq-13-4XX" secondAttribute="trailing" constant="16" id="wmb-Yf-k6J"/>
+                            <constraint firstItem="MbP-F9-tw8" firstAttribute="top" secondItem="MLq-13-4XX" secondAttribute="bottom" constant="35" id="yNu-Bf-eaO"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="forEditImageView" destination="HW2-Xv-QdU" id="2Zq-qQ-BK1"/>
-                        <outlet property="imageBackView" destination="144-7x-2ES" id="48a-77-zho"/>
-                        <outlet property="imagePickerBtn" destination="Y56-uj-JOK" id="5vH-nA-WRP"/>
+                        <outlet property="editorLabel" destination="MbP-F9-tw8" id="bQ3-mS-EOh"/>
+                        <outlet property="imagePickerBtn" destination="Y56-uj-JOK" id="uEz-ax-CHB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113.74045801526717" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="-16.030534351145036" y="-77.464788732394368"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

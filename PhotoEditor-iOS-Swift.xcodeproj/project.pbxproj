@@ -13,10 +13,12 @@
 		131DAC312A839AF4007672A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131DAC2F2A839AF4007672A9 /* Main.storyboard */; };
 		131DAC332A839AF5007672A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131DAC322A839AF5007672A9 /* Assets.xcassets */; };
 		131DAC362A839AF5007672A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131DAC342A839AF5007672A9 /* LaunchScreen.storyboard */; };
-		75656108BADFFD4B550054DE /* Pods_PhotoEditor_iOS_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED4C51A1BE6F72A4A5497DB /* Pods_PhotoEditor_iOS_Swift.framework */; };
+		B8F5EC69F38A3EDE914408FA /* Pods_PhotoEditor_iOS_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1325A7E5131E63EE69037538 /* Pods_PhotoEditor_iOS_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02B3F5BEDA5C40437A69B574 /* Pods-PhotoEditor-iOS-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoEditor-iOS-Swift.release.xcconfig"; path = "Target Support Files/Pods-PhotoEditor-iOS-Swift/Pods-PhotoEditor-iOS-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		10182E4E5D2835F57F1A3465 /* Pods-PhotoEditor-iOS-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoEditor-iOS-Swift.debug.xcconfig"; path = "Target Support Files/Pods-PhotoEditor-iOS-Swift/Pods-PhotoEditor-iOS-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		131DAC262A839AF4007672A9 /* PhotoEditor-iOS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhotoEditor-iOS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		131DAC292A839AF4007672A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		131DAC2B2A839AF4007672A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,9 +27,7 @@
 		131DAC322A839AF5007672A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		131DAC352A839AF5007672A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		131DAC372A839AF5007672A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BDC2B7048E05CADB91A53DB /* Pods-PhotoEditor-iOS-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoEditor-iOS-Swift.debug.xcconfig"; path = "Target Support Files/Pods-PhotoEditor-iOS-Swift/Pods-PhotoEditor-iOS-Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		7ED4C51A1BE6F72A4A5497DB /* Pods_PhotoEditor_iOS_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoEditor_iOS_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8498FB81A029D657286BC178 /* Pods-PhotoEditor-iOS-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoEditor-iOS-Swift.release.xcconfig"; path = "Target Support Files/Pods-PhotoEditor-iOS-Swift/Pods-PhotoEditor-iOS-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		1325A7E5131E63EE69037538 /* Pods_PhotoEditor_iOS_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoEditor_iOS_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75656108BADFFD4B550054DE /* Pods_PhotoEditor_iOS_Swift.framework in Frameworks */,
+				B8F5EC69F38A3EDE914408FA /* Pods_PhotoEditor_iOS_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 				131DAC282A839AF4007672A9 /* PhotoEditor-iOS-Swift */,
 				131DAC272A839AF4007672A9 /* Products */,
 				3896C11767D947CC844F9ABF /* Pods */,
-				1C42824F1262608E773C8DFA /* Frameworks */,
+				94ACC900583F383F81382CBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,21 +74,21 @@
 			path = "PhotoEditor-iOS-Swift";
 			sourceTree = "<group>";
 		};
-		1C42824F1262608E773C8DFA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7ED4C51A1BE6F72A4A5497DB /* Pods_PhotoEditor_iOS_Swift.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3896C11767D947CC844F9ABF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BDC2B7048E05CADB91A53DB /* Pods-PhotoEditor-iOS-Swift.debug.xcconfig */,
-				8498FB81A029D657286BC178 /* Pods-PhotoEditor-iOS-Swift.release.xcconfig */,
+				10182E4E5D2835F57F1A3465 /* Pods-PhotoEditor-iOS-Swift.debug.xcconfig */,
+				02B3F5BEDA5C40437A69B574 /* Pods-PhotoEditor-iOS-Swift.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		94ACC900583F383F81382CBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1325A7E5131E63EE69037538 /* Pods_PhotoEditor_iOS_Swift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,11 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 131DAC3A2A839AF5007672A9 /* Build configuration list for PBXNativeTarget "PhotoEditor-iOS-Swift" */;
 			buildPhases = (
-				3B669EAFBD858041F4A78ED5 /* [CP] Check Pods Manifest.lock */,
+				4E071EFC308C954C7832AFF6 /* [CP] Check Pods Manifest.lock */,
 				131DAC222A839AF4007672A9 /* Sources */,
 				131DAC232A839AF4007672A9 /* Frameworks */,
 				131DAC242A839AF4007672A9 /* Resources */,
-				3DE6CCFA1026DEA8159413F6 /* [CP] Embed Pods Frameworks */,
+				D52095895A4F7313A09B0A02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,7 +160,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3B669EAFBD858041F4A78ED5 /* [CP] Check Pods Manifest.lock */ = {
+		4E071EFC308C954C7832AFF6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,7 +182,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3DE6CCFA1026DEA8159413F6 /* [CP] Embed Pods Frameworks */ = {
+		D52095895A4F7313A09B0A02 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -338,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -350,7 +350,7 @@
 		};
 		131DAC3B2A839AF5007672A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BDC2B7048E05CADB91A53DB /* Pods-PhotoEditor-iOS-Swift.debug.xcconfig */;
+			baseConfigurationReference = 10182E4E5D2835F57F1A3465 /* Pods-PhotoEditor-iOS-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -364,6 +364,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +380,7 @@
 		};
 		131DAC3C2A839AF5007672A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8498FB81A029D657286BC178 /* Pods-PhotoEditor-iOS-Swift.release.xcconfig */;
+			baseConfigurationReference = 02B3F5BEDA5C40437A69B574 /* Pods-PhotoEditor-iOS-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -393,6 +394,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

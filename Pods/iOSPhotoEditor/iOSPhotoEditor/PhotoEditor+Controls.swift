@@ -99,12 +99,6 @@ extension PhotoEditorViewController {
             subview.removeFromSuperview()
         }
     }
-    
-    @IBAction func continueButtonPressed(_ sender: Any) {
-        let img = self.canvasView.toImage()
-        photoEditorDelegate?.doneEditing(image: img)
-        self.dismiss(animated: true, completion: nil)
-    }
 
     //MAKR: helper methods
     
